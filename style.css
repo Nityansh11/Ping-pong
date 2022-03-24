@@ -1,8 +1,3 @@
-body
-{
-background-size: cover;
-}
-
 .heading
 {
     width: 100%;
@@ -16,12 +11,38 @@ background-size: cover;
 
 .heading button
 {
-float: right;
-border: 2px solid white;
+    float: right;
+    border: 1px solid white;
 }
 
-#start, #status
+.big_image
+{
+width: 100%;
+}
+
+#start,#status
 {
     font-size: 22px;
+}
+
+h4
+{
+    background-color: lightskyblue;
+    line-height: 20px;
+    margin: 0px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.modal-dialog
+{
+    width: 90%;
+}
+
+.Instructions_image
+{
+    width: 45%;
+    display: inline-block;
 }
 
